@@ -1,0 +1,71 @@
+/* css resert  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navbar  */
+
+.img img{
+    height: 30px;
+    width: 30px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#logo{
+
+}
+
+#logo h1{
+    font-size: 3rem;
+}
+
+#navbar form{
+    margin-left: 620px;
+}
+
+/* oue owner */
+#owner-container{
+    border: 2px solid red;
+    margin-top: 22px;
+    height: 600px;
+    
+
+}
+
+#owner-container h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+#owner{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.item{
+
+}
+
+.item img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
